@@ -1,0 +1,103 @@
+/* Full page background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4eded; 
+  font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.wrapper {
+  background: white;
+  padding: 40px;
+  width: 450px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Subtitle text */
+.subtitle {
+  font-size: 15px;
+  color: #444;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+/* Form content */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 18px;
+}
+
+/* Inputs */
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 15px;
+}
+
+/* Button */
+button {
+  padding: 12px;
+  background: #19A7CE;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background: #146C94;
+}
+
+/* Results section */
+.resultsBox {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.resultCard {
+  background: #f9f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.resultCard h4 {
+  margin: 0;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.resultCard p {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.tagRow {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  background: #e3e3e3;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #333;
+}
